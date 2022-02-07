@@ -1079,6 +1079,12 @@ footer .author span {
   color: #219150;
 }
 
+@media (max-width: 475px) {
+  .search form .fa-search {
+    font-size: 20px;
+  }
+}
+
 .search .close-search {
   position: absolute;
   top: 15px;
@@ -1094,11 +1100,23 @@ footer .author span {
   color: #219150;
 }
 
+@media (max-width: 475px) {
+  .search .close-search {
+    font-size: 32px;
+  }
+}
+
 .search input {
   width: 100%;
   font-size: 20px;
   color: #fff;
   padding-right: 10px;
+}
+
+@media (max-width: 475px) {
+  .search input {
+    font-size: 16px;
+  }
 }
 
 .search input::-webkit-input-placeholder {
